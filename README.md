@@ -10,10 +10,10 @@ Install all the tools of what I need.
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-### (Optional) Use mirror
+### (Optional) Use mirror config for Cargo
 
 ```sh
-echo "RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup"  >> ~/.cargo/env
+cp cargo-config  >> ~/.cargo/config
 ```
 
 ### Install some tools by Cargo
