@@ -4,6 +4,14 @@ Install all the tools of what I need.
 
 ## Steps
 
+### Install the necessary packages
+
+#### Ubuntu
+
+```sh
+sudo apt-get update && apt-get install pkg-config libssl-dev
+```
+
 ### Install Rust toolchans
 
 ```sh
