@@ -9,7 +9,7 @@ Install all the tools of what I need.
 #### Ubuntu
 
 ```sh
-sudo apt-get update && apt-get install build-essential pkg-config libssl-dev software-properties-common
+sudo apt-get update && sudo apt-get install build-essential pkg-config libssl-dev software-properties-common
 ```
 
 ### Install Rust toolchans
